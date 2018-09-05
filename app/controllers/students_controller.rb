@@ -13,6 +13,7 @@ class StudentsController < ApplicationController
 
   def create
     @student = params[:student]
+    render 'students/new'
   end
 
 end
