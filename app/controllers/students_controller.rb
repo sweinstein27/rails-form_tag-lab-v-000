@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
 
   def create
     binding.pry
-    @student = params[:student]
+    @student = params[:first_name] +" " + params[:last_name]
     render 'students/new'
   end
 
