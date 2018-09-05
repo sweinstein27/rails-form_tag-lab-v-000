@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
 
   def create
     binding.pry
-    Student.create(params[:students])
+    Student.create(params[:student])
     redirect_to students_path
   end
 
