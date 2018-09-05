@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
 
   def create
     Student.create(params)
- redirect_to posts_path
+ redirect_to sudents_path
   end
 
 end
